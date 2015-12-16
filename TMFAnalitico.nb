@@ -10,17 +10,184 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[       758,         33]
-NotebookOptionsPosition[       561,         21]
-NotebookOutlinePosition[       898,         36]
-CellTagsIndexPosition[       855,         33]
+NotebookDataLength[      6463,        207]
+NotebookOptionsPosition[      6044,        188]
+NotebookOutlinePosition[      6379,        203]
+CellTagsIndexPosition[      6336,        200]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[{
+ RowBox[{"T", "=", "24"}], "\[IndentingNewLine]", 
+ RowBox[{"T0", "=", "15"}], "\[IndentingNewLine]", 
+ RowBox[{"T1", "=", "5"}]}], "Input",
+ CellChangeTimes->{{3.659275503032997*^9, 3.65927552840235*^9}, {
+  3.659275574433854*^9, 3.65927558144904*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ut", "[", 
+   RowBox[{"t_", ",", "a0_", ",", "an_", ",", "bn_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"a0", "/", "2"}], "+", 
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"an", "*", 
+       RowBox[{"cos", "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"2", "*", "Pi", "*", "n", "*", "t"}], ")"}], "/", "T"}], 
+        "]"}]}], "+", 
+      RowBox[{"bn", "*", 
+       RowBox[{"sin", "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"2", "*", "Pi", "*", "n", "*", "t"}], ")"}], "/", "T"}], 
+        "]"}]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", "Infinity"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.659275168275435*^9, 3.6592752258711863`*^9}, {
+  3.659275264233499*^9, 3.659275303409568*^9}, {3.659275346568664*^9, 
+  3.659275468730544*^9}, {3.659275611324278*^9, 3.659275641998972*^9}, {
+  3.6592757165339413`*^9, 3.659275776251568*^9}, {3.659275821598936*^9, 
+  3.659275844706555*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"u", "[", 
+   RowBox[{"x_", ",", "t_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"a0", "[", "x", "]"}], "/", "2"}], "+", 
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"an", "[", "x", "]"}], "*", 
+       RowBox[{"cos", "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"2", "*", "Pi", "*", "n", "*", "t"}], ")"}], "/", "T"}], 
+        "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"bn", "[", "x", "]"}], "*", 
+       RowBox[{"sin", "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"2", "*", "Pi", "*", "n", "*", "t"}], ")"}], "/", "T"}], 
+        "]"}]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", "Infinity"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.659276050944613*^9, 3.659276116237289*^9}, {
+  3.659276268918809*^9, 3.659276346147915*^9}, {3.659276408330359*^9, 
+  3.659276409549089*^9}}],
+
+Cell[BoxData[
+ RowBox[{"k", " ", 
+  RowBox[{
+   UnderoverscriptBox["\[Sum]", 
+    RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"an", "[", "x_", "]"}], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         FractionBox["1", "144"], " ", 
+         SuperscriptBox["n", "2"], " ", 
+         SuperscriptBox["\[Pi]", "2"], " ", 
+         RowBox[{
+          SuperscriptBox["cos", "\[Prime]\[Prime]",
+           MultilineFunction->None], "[", 
+          FractionBox[
+           RowBox[{"n", " ", "\[Pi]", " ", "t_"}], "12"], "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{
+           SuperscriptBox["Pattern", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"1", ",", "0"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{"t", ",", "_"}], "]"}], "2"]}], "+", 
+        RowBox[{
+         FractionBox["1", "12"], " ", "n", " ", "\[Pi]", " ", 
+         RowBox[{
+          SuperscriptBox["cos", "\[Prime]",
+           MultilineFunction->None], "[", 
+          FractionBox[
+           RowBox[{"n", " ", "\[Pi]", " ", "t_"}], "12"], "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["Pattern", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"2", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "_"}], "]"}]}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"bn", "[", "x_", "]"}], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         FractionBox["1", "144"], " ", 
+         SuperscriptBox["n", "2"], " ", 
+         SuperscriptBox["\[Pi]", "2"], " ", 
+         RowBox[{
+          SuperscriptBox["sin", "\[Prime]\[Prime]",
+           MultilineFunction->None], "[", 
+          FractionBox[
+           RowBox[{"n", " ", "\[Pi]", " ", "t_"}], "12"], "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{
+           SuperscriptBox["Pattern", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"1", ",", "0"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{"t", ",", "_"}], "]"}], "2"]}], "+", 
+        RowBox[{
+         FractionBox["1", "12"], " ", "n", " ", "\[Pi]", " ", 
+         RowBox[{
+          SuperscriptBox["sin", "\[Prime]",
+           MultilineFunction->None], "[", 
+          FractionBox[
+           RowBox[{"n", " ", "\[Pi]", " ", "t_"}], "12"], "]"}], " ", 
+         RowBox[{
+          SuperscriptBox["Pattern", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"2", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "_"}], "]"}]}]}], ")"}]}]}], ")"}]}]}]], "Output",\
+
+ CellChangeTimes->{3.659276492696541*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"u", "[", 
+     RowBox[{"x_", ",", "t_"}], "]"}], ",", "x"}], "]"}], "=", 
+  RowBox[{"k", "*", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{"u", "[", 
+      RowBox[{"x_", ",", "t_"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "2"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.659276415756752*^9, 3.6592764164799957`*^9}}]
 },
-WindowSize->{808, 911},
-WindowMargins->{{546, Automatic}, {Automatic, 12}},
+WindowSize->{960, 1016},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"10.3 for Linux x86 (64-bit) (October 9, 2015)",
 StyleDefinitions->"Default.nb"
 ]
@@ -35,9 +202,15 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 268, 5, 77, "Input"],
+Cell[829, 27, 1008, 27, 55, "Input"],
+Cell[CellGroupData[{
+Cell[1862, 58, 930, 28, 55, "Input"],
+Cell[2795, 88, 2813, 82, 101, "Output"]
+}, Open  ]],
+Cell[5623, 173, 417, 13, 32, "Input"]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
