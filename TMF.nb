@@ -10,131 +10,153 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27966,        599]
-NotebookOptionsPosition[     26787,        562]
-NotebookOutlinePosition[     27143,        578]
-CellTagsIndexPosition[     27100,        575]
+NotebookDataLength[     29145,        624]
+NotebookOptionsPosition[     27935,        586]
+NotebookOutlinePosition[     28291,        602]
+CellTagsIndexPosition[     28248,        599]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+   "De", " ", "modo", " ", "a", " ", "resolver", " ", "o", " ", "problema", 
+    " ", "numericamente", " ", "foi", " ", "resolvida", " ", "a", " ", 
+    "equa\[CCedilla]\[ATilde]o", " ", "do", " ", 
+    RowBox[{"calor", ".", " ", "Como"}], " ", "condi\[CCedilla]\[OTilde]es", 
+    " ", "fronteira"}], ",", " ", 
+   RowBox[{"usou", "-", "se"}]}], " ", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.6592525436135817`*^9, 3.659252584403418*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", "Sol", "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{"Manipulate", "[", 
   RowBox[{
-   RowBox[{"{", 
+   RowBox[{"Plot", "[", 
     RowBox[{
-     RowBox[{"Sol", " ", "=", "   ", 
-      RowBox[{"NDSolve", "[", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{
+     RowBox[{"Evaluate", "[", 
+      RowBox[{
+       RowBox[{"u", "[", 
+        RowBox[{"t", ",", "p"}], "]"}], "/.", 
+       RowBox[{"NDSolve", "[", 
+        RowBox[{
+         RowBox[{"{", 
           RowBox[{
-           RowBox[{"D", "[", 
-            RowBox[{
-             RowBox[{"u", "[", 
-              RowBox[{"t", ",", "x"}], "]"}], ",", "t"}], "]"}], "\[Equal]", 
-           RowBox[{"k", "*", 
+           RowBox[{
             RowBox[{"D", "[", 
              RowBox[{
               RowBox[{"u", "[", 
-               RowBox[{"t", ",", "x"}], "]"}], ",", "x", ",", "x"}], 
-             "]"}]}]}], ",", 
-          RowBox[{
-           RowBox[{"u", "[", 
-            RowBox[{"t", ",", "0"}], "]"}], "\[Equal]", 
-           RowBox[{"15", "+", 
-            RowBox[{"5", "*", 
-             RowBox[{"Sin", "[", 
-              RowBox[{"\[Pi]", " ", "*", 
-               RowBox[{"t", "/", "12"}]}], "]"}]}]}]}], ",", 
-          RowBox[{
+               RowBox[{"t", ",", "x"}], "]"}], ",", "t"}], "]"}], "\[Equal]", 
+            
+            RowBox[{
+             RowBox[{"(", "k1", ")"}], "*", 
+             RowBox[{"D", "[", 
+              RowBox[{
+               RowBox[{"u", "[", 
+                RowBox[{"t", ",", "x"}], "]"}], ",", "x", ",", "x"}], 
+              "]"}]}]}], ",", 
            RowBox[{
-            SuperscriptBox["u", 
-             TagBox[
-              RowBox[{"(", 
-               RowBox[{"0", ",", "1"}], ")"}],
-              Derivative],
-             MultilineFunction->None], "[", 
-            RowBox[{"t", ",", "1000"}], "]"}], "\[Equal]", "0"}], ",", 
-          RowBox[{
-           RowBox[{"u", "[", 
-            RowBox[{"0", ",", "x"}], "]"}], "\[Equal]", "15"}]}], "}"}], ",", 
-        "u", ",", 
-        RowBox[{"{", 
-         RowBox[{"t", ",", "0", ",", "3000"}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"x", ",", "0", ",", "1000"}], "}"}]}], "]"}]}], ",", 
-     RowBox[{"Plot", "[", 
-      RowBox[{
-       RowBox[{"Evaluate", "[", 
-        RowBox[{
-         RowBox[{"u", "[", 
-          RowBox[{"t", ",", "p"}], "]"}], "/.", "Sol"}], "]"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"t", ",", 
-         RowBox[{"3000", "-", "24"}], ",", "3000"}], "}"}], ",", " ", 
-       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", " ", 
-       RowBox[{"AxesLabel", "\[Rule]", "Automatic"}]}], "]"}]}], "}"}], ",", 
+            RowBox[{"u", "[", 
+             RowBox[{"t", ",", "0"}], "]"}], "\[Equal]", 
+            RowBox[{"15", "+", 
+             RowBox[{"5", "*", 
+              RowBox[{"Sin", "[", 
+               RowBox[{"\[Pi]", " ", "*", 
+                RowBox[{"t", "/", "12"}]}], "]"}]}]}]}], ",", 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["u", 
+              TagBox[
+               RowBox[{"(", 
+                RowBox[{"0", ",", "1"}], ")"}],
+               Derivative],
+              MultilineFunction->None], "[", 
+             RowBox[{"t", ",", "1000"}], "]"}], "\[Equal]", "0"}], ",", 
+           RowBox[{
+            RowBox[{"u", "[", 
+             RowBox[{"0", ",", "x"}], "]"}], "\[Equal]", "15"}]}], "}"}], ",",
+          "u", ",", 
+         RowBox[{"{", 
+          RowBox[{"t", ",", "0", ",", "3000"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"x", ",", "0", ",", "1000"}], "}"}]}], "]"}]}], "]"}], ",", 
+     
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"3000", "-", "24"}], ",", "3000"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", " ", 
+     RowBox[{"AxesLabel", "\[Rule]", "Automatic"}]}], "]"}], ",", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
       RowBox[{"p", ",", "2", ",", "\"\<Profundidade\>\""}], "}"}], ",", "0", 
      ",", "1000"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"k", ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"k1", ",", "0.5"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{
        RowBox[{"0.5", "\[Rule]", "\"\<Terra\>\""}], ",", 
        RowBox[{"0.6", "\[Rule]", "\"\<Agua\>\""}], ",", 
        RowBox[{"1.6", "\[Rule]", "\"\<Gelo\>\""}]}], "}"}]}], "}"}]}], 
-  "]"}]], "Input"],
-
-Cell[CellGroupData[{
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.659346064650259*^9, 3.659346086364579*^9}, {
+  3.65934613404541*^9, 3.659346140384925*^9}, {3.659346200652309*^9, 
+  3.65934623771552*^9}, {3.659346281338345*^9, 3.6593462945233507`*^9}, {
+  3.659346700906945*^9, 3.659346710198513*^9}, {3.6593468583711843`*^9, 
+  3.659346893156192*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`k$$ = 0.6, $CellContext`p$$ = 464., 
+   DynamicModuleBox[{$CellContext`k1$$ = 0.5, $CellContext`p$$ = 230., 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`p$$], 2, "Profundidade"}, 0, 1000}, {
-      Hold[$CellContext`k$$], {
+       Hold[$CellContext`p$$], 2, "Profundidade"}, 0, 1000}, {{
+       Hold[$CellContext`k1$$], 0.5}, {
       0.5 -> "Terra", 0.6 -> "Agua", 1.6 -> "Gelo"}}}, Typeset`size$$ = {
-    838.30126953125, {552., 24.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`p$447731$$ = 
-    0, $CellContext`k$447732$$ = False}, 
+    360., {109., 114.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`p$109493$$ = 
+    0, $CellContext`k1$109494$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
-      "Variables" :> {$CellContext`k$$ = 0.5 -> "Terra", $CellContext`p$$ = 
-        2}, "ControllerVariables" :> {
-        Hold[$CellContext`p$$, $CellContext`p$447731$$, 0], 
-        Hold[$CellContext`k$$, $CellContext`k$447732$$, False]}, 
+      "Variables" :> {$CellContext`k1$$ = 0.5, $CellContext`p$$ = 2}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`p$$, $CellContext`p$109493$$, 0], 
+        Hold[$CellContext`k1$$, $CellContext`k1$109494$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> {$CellContext`Sol = NDSolve[{D[
-             $CellContext`u[$CellContext`t, $CellContext`x], $CellContext`t] == \
-$CellContext`k$$ D[
-              $CellContext`u[$CellContext`t, $CellContext`x], $CellContext`x, \
-$CellContext`x], $CellContext`u[$CellContext`t, 0] == 
-           15 + 5 Sin[Pi ($CellContext`t/12)], 
-           Derivative[0, 1][$CellContext`u][$CellContext`t, 1000] == 
-           0, $CellContext`u[0, $CellContext`x] == 
-           15}, $CellContext`u, {$CellContext`t, 0, 3000}, {$CellContext`x, 0,
-            1000}], 
-        Plot[
-         Evaluate[
-          ReplaceAll[
-           $CellContext`u[$CellContext`t, $CellContext`p$$], \
-$CellContext`Sol]], {$CellContext`t, 3000 - 24, 3000}, PlotRange -> All, 
-         AxesLabel -> Automatic]}, 
+         Typeset`skipInitDone$$}, "Body" :> Plot[
+        Evaluate[
+         ReplaceAll[
+          $CellContext`u[$CellContext`t, $CellContext`p$$], 
+          NDSolve[{D[
+              $CellContext`u[$CellContext`t, $CellContext`x], $CellContext`t] == \
+$CellContext`k1$$ D[
+               $CellContext`u[$CellContext`t, $CellContext`x], \
+$CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] == 
+            15 + 5 Sin[Pi ($CellContext`t/12)], 
+            Derivative[0, 1][$CellContext`u][$CellContext`t, 1000] == 
+            0, $CellContext`u[0, $CellContext`x] == 
+            15}, $CellContext`u, {$CellContext`t, 0, 3000}, {$CellContext`x, 
+            0, 1000}]]], {$CellContext`t, 3000 - 24, 3000}, PlotRange -> All, 
+        AxesLabel -> Automatic], 
       "Specifications" :> {{{$CellContext`p$$, 2, "Profundidade"}, 0, 
-         1000}, {$CellContext`k$$, {
+         1000}, {{$CellContext`k1$$, 0.5}, {
          0.5 -> "Terra", 0.6 -> "Agua", 1.6 -> "Gelo"}}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{884., {342., 347.}},
+     ImageSizeCache->{405., {166., 171.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -144,16 +166,18 @@ $CellContext`Sol]], {$CellContext`t, 3000 - 24, 3000}, PlotRange -> All,
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Input",
- CellChangeTimes->{{3.659218100662401*^9, 3.659218108767963*^9}}],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.659346136060961*^9, 3.659346163387781*^9}, 
+   3.659346209849374*^9, 3.6593462448754253`*^9, 3.659346298446514*^9, 
+   3.659346463563395*^9, {3.6593468441861*^9, 3.659346859806072*^9}, 
+   3.659346894586287*^9, 3.659347312847069*^9}],
 
 Cell[BoxData[
  RowBox[{
   StyleBox[
-   RowBox[{"NDSolve", "::", "ndnum"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Encountered non-numerical value for a derivative at \
-\[NoBreak]\\!\\(\\*RowBox[{\\\"t\\\"}]\\)\[NoBreak] == \
+   RowBox[{"NDSolve", "::", "ndnum"}], "MessageName"], ":", 
+  " ", "\<\"Encountered non-numerical value for a derivative at \[NoBreak]\\!\
+\\(\\*RowBox[{\\\"t\\\"}]\\)\[NoBreak] == \
 \[NoBreak]\\!\\(\\*RowBox[{\\\"0.`\\\"}]\\)\[NoBreak]. \
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/NDSolve/ndnum\\\", \
@@ -577,29 +601,30 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2430, 69, 107, "Input"],
+Cell[558, 20, 575, 12, 97, "Input"],
 Cell[CellGroupData[{
-Cell[3013, 93, 2725, 54, 706, InheritFromParent],
-Cell[5741, 149, 548, 11, 24, "Message"],
-Cell[6292, 162, 2337, 36, 47, "Message"],
-Cell[8632, 200, 486, 11, 24, "Message"],
-Cell[9121, 213, 2225, 35, 47, "Message"],
-Cell[11349, 250, 488, 11, 24, "Message"],
-Cell[11840, 263, 2243, 36, 48, "Message"],
-Cell[14086, 301, 564, 12, 24, "Message"],
-Cell[14653, 315, 486, 11, 24, "Message"],
-Cell[15142, 328, 563, 12, 24, "Message"],
-Cell[15708, 342, 548, 11, 24, "Message"],
-Cell[16259, 355, 548, 11, 24, "Message"],
-Cell[16810, 368, 2335, 36, 47, "Message"],
-Cell[19148, 406, 486, 11, 24, "Message"],
-Cell[19637, 419, 2223, 35, 47, "Message"],
-Cell[21863, 456, 486, 11, 24, "Message"],
-Cell[22352, 469, 2243, 36, 48, "Message"],
-Cell[24598, 507, 567, 12, 24, "Message"],
-Cell[25168, 521, 486, 11, 24, "Message"],
-Cell[25657, 534, 563, 12, 24, "Message"],
-Cell[26223, 548, 548, 11, 24, "Message"]
+Cell[1158, 36, 2858, 78, 152, "Input"],
+Cell[4019, 116, 2880, 56, 388, "Output"],
+Cell[6902, 174, 535, 10, 24, "Message"],
+Cell[7440, 186, 2337, 36, 47, "Message"],
+Cell[9780, 224, 486, 11, 24, "Message"],
+Cell[10269, 237, 2225, 35, 47, "Message"],
+Cell[12497, 274, 488, 11, 24, "Message"],
+Cell[12988, 287, 2243, 36, 48, "Message"],
+Cell[15234, 325, 564, 12, 24, "Message"],
+Cell[15801, 339, 486, 11, 24, "Message"],
+Cell[16290, 352, 563, 12, 24, "Message"],
+Cell[16856, 366, 548, 11, 24, "Message"],
+Cell[17407, 379, 548, 11, 24, "Message"],
+Cell[17958, 392, 2335, 36, 47, "Message"],
+Cell[20296, 430, 486, 11, 24, "Message"],
+Cell[20785, 443, 2223, 35, 47, "Message"],
+Cell[23011, 480, 486, 11, 24, "Message"],
+Cell[23500, 493, 2243, 36, 48, "Message"],
+Cell[25746, 531, 567, 12, 24, "Message"],
+Cell[26316, 545, 486, 11, 24, "Message"],
+Cell[26805, 558, 563, 12, 24, "Message"],
+Cell[27371, 572, 548, 11, 24, "Message"]
 }, Open  ]]
 }
 ]
