@@ -10,21 +10,123 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
+<<<<<<< Updated upstream
 NotebookDataLength[     27966,        599]
 NotebookOptionsPosition[     26787,        562]
 NotebookOutlinePosition[     27143,        578]
 CellTagsIndexPosition[     27100,        575]
+=======
+NotebookDataLength[     15819,        410]
+NotebookOptionsPosition[     15127,        382]
+NotebookOutlinePosition[     15485,        398]
+CellTagsIndexPosition[     15442,        395]
+>>>>>>> Stashed changes
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
+<<<<<<< Updated upstream
  RowBox[{"Manipulate", "[", 
   RowBox[{
    RowBox[{"{", 
     RowBox[{
      RowBox[{"Sol", " ", "=", "   ", 
       RowBox[{"NDSolve", "[", 
+=======
+ RowBox[{
+  RowBox[{
+  "De", " ", "modo", " ", "a", " ", "resolver", " ", "o", " ", "problema", 
+   " ", "numericamente", " ", "foi", " ", "resolvida", " ", "a", " ", 
+   "equa\[CCedilla]\[ATilde]o", " ", "do", " ", 
+   RowBox[{"calor", ".", " ", "Para"}], " ", "tal"}], ",", " ", 
+  RowBox[{
+  "foi", " ", "ncess\[AAcute]rio", " ", "estabelecer", " ", "duas", " ", 
+   "condi\[CCedilla]\[OTilde]es", " ", 
+   RowBox[{"fronteira", ".", " ", "Em"}], " ", "primeiro", " ", "lugar"}], 
+  ",", "  ", 
+  RowBox[{"usou", "-", 
+   RowBox[{
+   "se", " ", "uma", " ", "varia\[CCedilla]\[ATilde]o", " ", "sinusoidal", 
+    " ", "de", " ", "temperatura", " ", "\[AGrave]", " ", "superficie"}]}], 
+  ",", 
+  RowBox[{
+  "com", " ", "um", " ", "m\[AAcute]ximo", " ", "de", " ", "20", " ", "\.baC",
+    " ", "\[AGrave]s", " ", "12", " ", "h", " ", "e", " ", "um", " ", 
+   "m\[IAcute]nimo", " ", "de", " ", "10", " ", "graus", " ", "\[AGrave]", 
+   " ", "meia", " ", "noite"}], ",", " ", 
+  RowBox[{
+   RowBox[{"usando", " ", "a", "  ", "fun\[CCedilla]a\[OTilde]", " ", "T", 
+    RowBox[{"(", "t", ")"}]}], " ", "=", " ", 
+   RowBox[{"15", "-", 
+    RowBox[{"5", "*", "cos", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Pi]", "*", 
+        RowBox[{"t", "/", "12"}]}], ")"}], ".", " ", "A"}], " ", "outra", " ",
+      "condi\[CCedilla]\[ATilde]o", " ", "fronteira", " ", "usada", " ", 
+     "assume", " ", "que", " ", "n\[ATilde]o", " ", "h\[AAcute]", " ", 
+     "calor", " ", "a", " ", "chegar", " ", "a", " ", "fundo", " ", "neste", 
+     " ", "caso", " ", "1000", " ", "metros", " ", "de", " ", 
+     RowBox[{"profundidade", ".", "Para"}], " ", "resolver", " ", 
+     "numericamente", " ", "\[EAcute]", " ", "tamb\[EAcute]m", " ", 
+     "necess\[AAcute]rio", "  ", "estabelecer", " ", "uma", " ", 
+     "condi\[CCedilla]\[ATilde]o", " ", "inicial"}]}]}], ",", " ", 
+  RowBox[{"neste", " ", "sentido"}], ",", " ", 
+  RowBox[{
+  "us\[AAcute]mos", " ", "assumimos", " ", "a", " ", "temperatura", " ", "ao",
+    " ", "longo", " ", "de", " ", "toda", " ", "o", " ", "meio", " ", "como", 
+   " ", "constante"}], ",", " ", 
+  RowBox[{
+   RowBox[{
+   "com", " ", "o", " ", "valor", " ", "igual", " ", "ao", "  ", 
+    "m\[IAcute]nimo", " ", "observado", " ", "num", " ", "dia", " ", 
+    "\[AGrave]", " ", 
+    RowBox[{
+    "superificie", " ", ".", "\[IndentingNewLine]", " ", "Representou"}]}], 
+   "-", 
+   RowBox[{
+   "se", " ", "o", " ", "gr\[AAcute]fico", " ", "numa", " ", 
+    "anima\[CCedilla]\[ATilde]o", " ", "para", " ", "se", " ", "poder", " ", 
+    "visualizar", " ", "a", " ", "temperatura", " ", "em", " ", 
+    "fun\[CCedilla]\[ATilde]o", " ", "do", " ", "tempo", " ", "ao", " ", 
+    "longo", " ", "de", " ", "um", " ", 
+    RowBox[{"dia", ".", " ", "Para"}], " ", "tal"}]}], ",", " ", 
+  RowBox[{"representou", "-", 
+   RowBox[{
+   "se", " ", "um", " ", "dia", " ", "bem", " ", "longe", " ", "do", " ", 
+    "\[IAcute]nicio", " ", "do", " ", "problema", " ", "de", " ", "modo", " ",
+     "a", " ", "anular", " ", "o", " ", "efeito", " ", "da", " ", 
+    "condi\[CCedilla]\[ATilde]o", " ", "inicial", " ", 
+    RowBox[{"imposta", ".", " ", "Pode"}]}], "-", 
+   RowBox[{
+   "se", " ", "observar", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ", 
+    "da", " ", "temperatura", " ", "em", " ", "fun\[CCedilla]\[ATilde]o", " ",
+     "da", " ", "profundidade", " ", "escolhendo", " ", "a", " ", 
+    "profundidade", " ", "que", " ", "ser", " ", "quer", " ", "analisar", " ",
+     "assim", " ", "como", " ", "o", " ", "meio", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"terra", ",", " ", 
+       RowBox[{"\[AAcute]gua", " ", "ou", " ", "gelo"}]}], ")"}], 
+     "."}]}]}]}]], "Input",
+ CellChangeTimes->{{3.6592525436135817`*^9, 3.659252584403418*^9}, {
+   3.659528211569656*^9, 3.659528223033411*^9}, 3.659528288305201*^9, {
+   3.6595286427904882`*^9, 3.659528781775557*^9}, {3.65952881188976*^9, 
+   3.659528930249802*^9}, {3.659528969844124*^9, 3.659529026424243*^9}, {
+   3.6596041416492357`*^9, 3.659604383514604*^9}, {3.659604483453775*^9, 
+   3.659604524574827*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"Evaluate", "[", 
+>>>>>>> Stashed changes
        RowBox[{
         RowBox[{"{", 
          RowBox[{
@@ -94,13 +196,18 @@ Cell[CellGroupData[{
 Cell[BoxData[
  TagBox[
   StyleBox[
+<<<<<<< Updated upstream
    DynamicModuleBox[{$CellContext`k$$ = 0.6, $CellContext`p$$ = 464., 
+=======
+   DynamicModuleBox[{$CellContext`k1$$ = 1.6, $CellContext`p$$ = 2, 
+>>>>>>> Stashed changes
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`p$$], 2, "Profundidade"}, 0, 1000}, {
       Hold[$CellContext`k$$], {
       0.5 -> "Terra", 0.6 -> "Agua", 1.6 -> "Gelo"}}}, Typeset`size$$ = {
+<<<<<<< Updated upstream
     838.30126953125, {552., 24.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`p$447731$$ = 
     0, $CellContext`k$447732$$ = False}, 
@@ -110,6 +217,17 @@ Cell[BoxData[
         2}, "ControllerVariables" :> {
         Hold[$CellContext`p$$, $CellContext`p$447731$$, 0], 
         Hold[$CellContext`k$$, $CellContext`k$447732$$, False]}, 
+=======
+    360., {109., 113.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`p$12562$$ = 
+    0, $CellContext`k1$12563$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`k1$$ = 0.5, $CellContext`p$$ = 2}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`p$$, $CellContext`p$12562$$, 0], 
+        Hold[$CellContext`k1$$, $CellContext`k1$12563$$, False]}, 
+>>>>>>> Stashed changes
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -144,6 +262,7 @@ $CellContext`Sol]], {$CellContext`t, 3000 - 24, 3000}, PlotRange -> All,
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
+<<<<<<< Updated upstream
   Manipulate`InterpretManipulate[1]]], "Input",
  CellChangeTimes->{{3.659218100662401*^9, 3.659218108767963*^9}}],
 
@@ -352,6 +471,22 @@ Cell[BoxData[
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/NDSolve/ndnum\\\", \
 ButtonNote -> \\\"NDSolve::ndnum\\\"]\\)\"\>"}]], "Message", "MSG",
  CellChangeTimes->{3.659217958463409*^9}],
+=======
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.659346136060961*^9, 3.659346163387781*^9}, 
+   3.659346209849374*^9, 3.6593462448754253`*^9, 3.659346298446514*^9, 
+   3.659346463563395*^9, {3.6593468441861*^9, 3.659346859806072*^9}, 
+   3.659346894586287*^9, 3.659347312847069*^9, 3.659528240727427*^9, {
+   3.659528497307641*^9, 3.6595285269152403`*^9}, 3.659528594205443*^9, 
+   3.65952863664589*^9, 3.659604589008946*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.659603795678393*^9, 3.659603852124104*^9}, 
+   3.659604133779726*^9}],
+>>>>>>> Stashed changes
 
 Cell[BoxData[
  RowBox[{
@@ -364,6 +499,7 @@ Cell[BoxData[
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/NDSolve/ndnum\\\", \
 ButtonNote -> \\\"NDSolve::ndnum\\\"]\\)\"\>"}]], "Message", "MSG",
+<<<<<<< Updated upstream
  CellChangeTimes->{3.659217959626644*^9}],
 
 Cell[BoxData[
@@ -545,6 +681,57 @@ ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
 \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
  CellChangeTimes->{3.659217960067449*^9}],
+=======
+ CellChangeTimes->{{3.6596038154534283`*^9, 3.659603821925501*^9}, 
+   3.659603852719404*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NDSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"D", "[", 
+       RowBox[{
+        RowBox[{"u", "[", 
+         RowBox[{"t", ",", "x"}], "]"}], ",", "t"}], "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"(", "k1", ")"}], "*", 
+       RowBox[{"D", "[", 
+        RowBox[{
+         RowBox[{"u", "[", 
+          RowBox[{"t", ",", "x"}], "]"}], ",", "x", ",", "x"}], "]"}]}]}], 
+     ",", 
+     RowBox[{
+      RowBox[{"u", "[", 
+       RowBox[{"t", ",", "0"}], "]"}], "\[Equal]", 
+      RowBox[{"15", "-", 
+       RowBox[{"5", "*", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"\[Pi]", " ", "*", 
+          RowBox[{"t", "/", "12"}]}], "]"}]}]}]}], ",", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["u", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"0", ",", "1"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{"t", ",", "1000"}], "]"}], "\[Equal]", "0"}], ",", 
+     RowBox[{
+      RowBox[{"u", "[", 
+       RowBox[{"0", ",", "x"}], "]"}], "\[Equal]", " ", "10"}]}], "}"}], ",", 
+   "u", ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "1", ",", "3000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "1000"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6596046123686533`*^9, 3.659604612512969*^9}}],
+>>>>>>> Stashed changes
 
 Cell[BoxData[
  RowBox[{
@@ -557,11 +744,74 @@ Cell[BoxData[
 \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
 ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/NDSolve/ndnum\\\", \
 ButtonNote -> \\\"NDSolve::ndnum\\\"]\\)\"\>"}]], "Message", "MSG",
+<<<<<<< Updated upstream
  CellChangeTimes->{3.659217960125453*^9}]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
 WindowMargins->{{4, Automatic}, {Automatic, 4}},
+=======
+ CellChangeTimes->{
+  3.6596045485591183`*^9, {3.659604596620562*^9, 3.6596046153979387`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"NDSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["u", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"1", ",", "0"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{"t", ",", "x"}], "]"}], "\[Equal]", 
+      RowBox[{"k1", " ", 
+       RowBox[{
+        SuperscriptBox["u", 
+         TagBox[
+          RowBox[{"(", 
+           RowBox[{"0", ",", "2"}], ")"}],
+          Derivative],
+         MultilineFunction->None], "[", 
+        RowBox[{"t", ",", "x"}], "]"}]}]}], ",", 
+     RowBox[{
+      RowBox[{"u", "[", 
+       RowBox[{"t", ",", "0"}], "]"}], "\[Equal]", 
+      RowBox[{"15", "-", 
+       RowBox[{"5", " ", 
+        RowBox[{"Cos", "[", 
+         FractionBox[
+          RowBox[{"\[Pi]", " ", "t"}], "12"], "]"}]}]}]}], ",", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["u", 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"0", ",", "1"}], ")"}],
+         Derivative],
+        MultilineFunction->None], "[", 
+       RowBox[{"t", ",", "1000"}], "]"}], "\[Equal]", "0"}], ",", 
+     RowBox[{
+      RowBox[{"u", "[", 
+       RowBox[{"0", ",", "x"}], "]"}], "\[Equal]", "10"}]}], "}"}], ",", "u", 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "1", ",", "3000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "1000"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.659604548566059*^9, {3.6596045966284647`*^9, 3.659604615405604*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.659604130701271*^9, 3.659604131020288*^9}}]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{Automatic, 63}, {Automatic, 37}},
+>>>>>>> Stashed changes
 FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 9, \
 2015)",
 StyleDefinitions->"Default.nb"
@@ -577,6 +827,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+<<<<<<< Updated upstream
 Cell[558, 20, 2430, 69, 107, "Input"],
 Cell[CellGroupData[{
 Cell[3013, 93, 2725, 54, 706, InheritFromParent],
@@ -601,6 +852,23 @@ Cell[25168, 521, 486, 11, 24, "Message"],
 Cell[25657, 534, 563, 12, 24, "Message"],
 Cell[26223, 548, 548, 11, 24, "Message"]
 }, Open  ]]
+=======
+Cell[558, 20, 4090, 82, 165, "Input"],
+Cell[CellGroupData[{
+Cell[4673, 106, 3061, 77, 137, "Input"],
+Cell[7737, 185, 3016, 58, 352, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10790, 248, 137, 2, 46, "Input"],
+Cell[10930, 252, 600, 12, 24, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11567, 269, 1337, 42, 48, "Input"],
+Cell[12907, 313, 601, 12, 24, "Message"],
+Cell[13511, 327, 1505, 49, 80, "Output"]
+}, Open  ]],
+Cell[15031, 379, 92, 1, 28, InheritFromParent]
+>>>>>>> Stashed changes
 }
 ]
 *)
