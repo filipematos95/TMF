@@ -10,100 +10,231 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     36892,        901]
-NotebookOptionsPosition[     35926,        864]
-NotebookOutlinePosition[     36284,        880]
-CellTagsIndexPosition[     36241,        877]
+NotebookDataLength[     43729,       1109]
+NotebookOptionsPosition[     42759,       1072]
+NotebookOutlinePosition[     43117,       1088]
+CellTagsIndexPosition[     43074,       1085]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
- RowBox[{
+ RowBox[{"\[IndentingNewLine]", 
   RowBox[{
-  "De", " ", "modo", " ", "a", " ", "resolver", " ", "o", " ", "problema", 
-   " ", "numericamente", " ", "foi", " ", "resolvida", " ", "a", " ", 
-   "equa\[CCedilla]\[ATilde]o", " ", "do", " ", 
-   RowBox[{"calor", ".", " ", "Para"}], " ", "tal"}], ",", " ", 
-  RowBox[{
-  "foi", " ", "ncess\[AAcute]rio", " ", "estabelecer", " ", "duas", " ", 
-   "condi\[CCedilla]\[OTilde]es", " ", 
-   RowBox[{"fronteira", ".", " ", "Em"}], " ", "primeiro", " ", "lugar"}], 
-  ",", "  ", 
-  RowBox[{"usou", "-", 
+   StyleBox[
+    RowBox[{
+    "Resolu\[CCedilla]\[ATilde]o", " ", "Num\[EAcute]rica", " ", 
+     "Computacional"}], "Chapter"], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
-   "se", " ", "uma", " ", "varia\[CCedilla]\[ATilde]o", " ", "sinusoidal", 
-    " ", "de", " ", "temperatura", " ", "\[AGrave]", " ", "superficie"}]}], 
-  ",", 
-  RowBox[{
-  "com", " ", "um", " ", "m\[AAcute]ximo", " ", "de", " ", "20", " ", "\.baC",
-    " ", "\[AGrave]s", " ", "12", " ", "h", " ", "e", " ", "um", " ", 
-   "m\[IAcute]nimo", " ", "de", " ", "10", " ", "graus", " ", "\[AGrave]", 
-   " ", "meia", " ", "noite"}], ",", " ", 
-  RowBox[{
-   RowBox[{"usando", " ", "a", "  ", "fun\[CCedilla]a\[OTilde]", " ", "T", 
-    RowBox[{"(", "t", ")"}]}], " ", "=", " ", 
-   RowBox[{"15", "-", 
-    RowBox[{"5", "*", "cos", 
+    StyleBox[
      RowBox[{
-      RowBox[{"(", 
-       RowBox[{"\[Pi]", "*", 
-        RowBox[{"t", "/", "12"}]}], ")"}], ".", " ", "A"}], " ", "outra", " ",
-      "condi\[CCedilla]\[ATilde]o", " ", "fronteira", " ", "usada", " ", 
-     "assume", " ", "que", " ", "n\[ATilde]o", " ", "h\[AAcute]", " ", 
-     "calor", " ", "a", " ", "chegar", " ", "a", " ", "fundo", " ", "neste", 
-     " ", "caso", " ", "1000", " ", "metros", " ", "de", " ", 
-     RowBox[{"profundidade", ".", "Para"}], " ", "resolver", " ", 
-     "numericamente", " ", "\[EAcute]", " ", "tamb\[EAcute]m", " ", 
-     "necess\[AAcute]rio", "  ", "estabelecer", " ", "uma", " ", 
-     "condi\[CCedilla]\[ATilde]o", " ", "inicial"}]}]}], ",", " ", 
-  RowBox[{"neste", " ", "sentido"}], ",", " ", 
-  RowBox[{
-  "us\[AAcute]mos", " ", "assumimos", " ", "a", " ", "temperatura", " ", "ao",
-    " ", "longo", " ", "de", " ", "toda", " ", "o", " ", "meio", " ", "como", 
-   " ", "constante"}], ",", " ", 
-  RowBox[{
-  "com", " ", "o", " ", "valor", " ", "igual", " ", "ao", "  ", 
-   "m\[IAcute]nimo", " ", "observado", " ", "num", " ", "dia", " ", 
-   "\[AGrave]", " ", "superificie"}], " ", ",", " ", 
-  RowBox[{
-   RowBox[{
-   "resultando", " ", "na", " ", "exist\[EHat]ncia", " ", "de", " ", "um", 
-    " ", "regime", " ", "transit\[OAcute]rio", " ", "no", " ", "primeiro", 
-    " ", 
+     "De", " ", "modo", " ", "a", " ", "resolver", " ", "o", " ", "problema", 
+      " ", "numericamente", " ", "foi", " ", "resolvida", " ", "a", " ", 
+      "equa\[CCedilla]\[ATilde]o", " ", "do", " ", 
+      RowBox[{"calor", ".", " ", "Para"}], " ", "tal"}], "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{
+     "foi", " ", "ncess\[AAcute]rio", " ", "estabelecer", " ", "duas", " ", 
+      "condi\[CCedilla]\[OTilde]es", " ", 
+      RowBox[{"fronteira", ".", " ", "Em"}], " ", "primeiro", " ", "lugar"}], 
+     "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox["  ", "Text"], 
+    StyleBox[
+     RowBox[{"usou", "-", 
+      RowBox[{
+      "se", " ", "uma", " ", "varia\[CCedilla]\[ATilde]o", " ", "sinusoidal", 
+       " ", "de", " ", "temperatura", " ", "\[AGrave]", " ", "superficie"}]}],
+      "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[
+     RowBox[{
+     "com", " ", "um", " ", "m\[AAcute]ximo", " ", "de", " ", "20", " ", 
+      "\.baC", " ", "\[AGrave]s", " ", "12", " ", "h", " ", "e", " ", "um", 
+      " ", "m\[IAcute]nimo", " ", "de", " ", "10", " ", "graus", " ", 
+      "\[AGrave]", " ", "meia", " ", "noite"}], "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{
+      RowBox[{
+      "usando", " ", "a", "  ", "fun\[CCedilla]a\[OTilde]", " ", "T", 
+       RowBox[{"(", "t", ")"}]}], " ", "=", " ", 
+      RowBox[{"15", "-", 
+       RowBox[{"5", "*", "cos", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"\[Pi]", "*", 
+           RowBox[{"t", "/", "12"}]}], ")"}], ".", " ", "A"}], " ", "outra", 
+        " ", "condi\[CCedilla]\[ATilde]o", " ", "fronteira", " ", "usada", 
+        " ", "assume", " ", "que", " ", "n\[ATilde]o", " ", "h\[AAcute]", " ",
+         "calor", " ", "a", " ", "chegar", " ", "a", " ", "fundo", " ", 
+        "neste", " ", "caso", " ", "1000", " ", "metros", " ", "de", " ", 
+        RowBox[{"profundidade", ".", "Para"}], " ", "resolver", " ", 
+        "numericamente", " ", "\[EAcute]", " ", "tamb\[EAcute]m", " ", 
+        "necess\[AAcute]rio", "  ", "estabelecer", " ", "uma", " ", 
+        "condi\[CCedilla]\[ATilde]o", " ", "inicial"}]}]}], "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{"neste", " ", "sentido"}], "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{
+     "assumimos", " ", "a", " ", "temperatura", " ", "ao", " ", "longo", " ", 
+      "de", " ", "todo", " ", "o", " ", "meio", " ", "como", " ", 
+      "constante"}], "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{
+     "com", " ", "o", " ", "valor", " ", "igual", " ", "ao", "  ", 
+      "m\[IAcute]nimo", " ", "observado", " ", "num", " ", "dia", " ", 
+      "\[AGrave]", " ", "superificie"}], "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
     RowBox[{
-    "m\[EHat]s", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", "1"}], 
-    " ", "Estudo", " ", "sa", " ", "solu\[CCedilla]\[ATilde]o", " ", "da", 
-    " ", "equa\[CCedilla]\[ATilde]o", " ", "do", " ", "calor", " ", "num", 
-    " ", "regime", " ", 
+     RowBox[{
+      StyleBox[
+       RowBox[{
+       "resultando", " ", "na", " ", "exist\[EHat]ncia", " ", "de", " ", "um",
+         " ", "regime", " ", "transit\[OAcute]rio", " ", "no", " ", 
+        "primeiro", " ", 
+        RowBox[{"m\[EHat]s", ".", "Para"}], " ", "resolver", " ", "a", " ", 
+        "equa\[CCedilla]\[ATilde]o", " ", "diferencial", " ", "numericamente",
+         " ", "usou"}], "Text"], 
+      StyleBox["-", "Text"], 
+      RowBox[{
+       StyleBox["se", "Text"], 
+       StyleBox["  ", "Text"], 
+       StyleBox["a", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["fun\[CCedilla]\[ATilde]o", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["NDSolve", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["do", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox[
+        RowBox[{
+        "Mathematica", ".", "\[IndentingNewLine]", 
+         "Equa\[CCedilla]\[ATilde]o"}], "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["do", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["calor", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["a", "Text"], 
+       StyleBox[" ", "Text"], 
+       StyleBox["ser", "Text"], 
+       StyleBox[" ", "Text"], 
+       RowBox[{
+        StyleBox["resolvida", "Text"], 
+        StyleBox[":", "Text"], 
+        StyleBox[
+         StyleBox[
+          RowBox[{" ", 
+           StyleBox[" ", "DisplayFormulaNumbered",
+            FontSize->10]}]], "Text"], 
+        StyleBox[
+         StyleBox[
+          FractionBox[
+           RowBox[{
+            RowBox[{"\[PartialD]", "u"}], 
+            RowBox[{"(", 
+             RowBox[{"x", ",", "t"}], ")"}]}], 
+           RowBox[{"\[PartialD]", "t"}]], "DisplayFormulaNumbered"], 
+         "DisplayFormula",
+         FontSize->10]}]}]}], 
+     StyleBox[
+      StyleBox[" ", "DisplayFormulaNumbered"], "DisplayFormula",
+      FontSize->10], 
+     StyleBox[
+      StyleBox["=", "DisplayFormulaNumbered"], "DisplayFormula",
+      FontSize->10], 
+     StyleBox[
+      RowBox[{
+       StyleBox["k", "DisplayFormulaNumbered"], 
+       StyleBox[
+        FractionBox[
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[PartialD]", "2"], "u"}], 
+          RowBox[{"(", 
+           RowBox[{"x", ",", "t"}], ")"}]}], 
+         RowBox[{"\[PartialD]", 
+          SuperscriptBox["x", "2"]}]], "DisplayFormulaNumbered"]}], 
+      "DisplayFormula",
+      FontSize->10]}]}], 
+   StyleBox[
+    StyleBox["  ", "Text"], "DisplayFormula",
+    FontSize->10], 
+   StyleBox["\[IndentingNewLine]", "Text"], 
+   StyleBox["\[IndentingNewLine]", "Text"], 
+   RowBox[{
     RowBox[{
-    "est\[AAcute]vel", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-     "Representou"}]}], "-", 
-   RowBox[{
-   "se", " ", "o", " ", "gr\[AAcute]fico", " ", "numa", " ", 
-    "anima\[CCedilla]\[ATilde]o", " ", "para", " ", "se", " ", "poder", " ", 
-    "visualizar", " ", "a", " ", "temperatura", " ", "em", " ", 
-    "fun\[CCedilla]\[ATilde]o", " ", "do", " ", "tempo", " ", "ao", " ", 
-    "longo", " ", "de", " ", "um", " ", 
-    RowBox[{"dia", ".", " ", "Para"}], " ", "tal"}]}], ",", " ", 
-  RowBox[{"representou", "-", 
-   RowBox[{
-   "se", " ", "um", " ", "dia", " ", "bem", " ", "longe", " ", "do", " ", 
-    "\[IAcute]nicio", " ", "do", " ", "problema", " ", "de", " ", "modo", " ",
-     "a", " ", "anular", " ", "o", " ", "efeito", " ", "da", " ", 
-    "condi\[CCedilla]\[ATilde]o", " ", "inicial", " ", 
-    RowBox[{"imposta", ".", " ", "Pode"}]}], "-", 
-   RowBox[{
-   "se", " ", "observar", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ", 
-    "da", " ", "temperatura", " ", "em", " ", "fun\[CCedilla]\[ATilde]o", " ",
-     "da", " ", "profundidade", " ", "escolhendo", " ", "a", " ", 
-    "profundidade", " ", "que", " ", "ser", " ", "quer", " ", "analisar", " ",
-     "assim", " ", "como", " ", "o", " ", "meio", 
-    RowBox[{
-     RowBox[{"(", 
-      RowBox[{"terra", ",", " ", 
-       RowBox[{"\[AAcute]gua", " ", "ou", " ", "gelo"}]}], ")"}], 
-     "."}]}]}]}]], "Input",
+     RowBox[{
+      StyleBox["1", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["Estudo", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["da", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["solu\[CCedilla]\[ATilde]o", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["da", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["equa\[CCedilla]\[ATilde]o", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["do", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["calor", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["num", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      StyleBox["regime", "Subchapter"], 
+      StyleBox[" ", "Subchapter"], 
+      RowBox[{
+       StyleBox["est\[AAcute]vel", "Subchapter"], 
+       StyleBox[".", "Subchapter"], 
+       StyleBox["\[IndentingNewLine]", "Subchapter"], 
+       StyleBox["\[IndentingNewLine]", "Text"], 
+       StyleBox["Representou", "Text"]}]}], 
+     StyleBox["-", "Text"], 
+     StyleBox[
+      RowBox[{
+      "se", " ", "o", " ", "gr\[AAcute]fico", " ", "numa", " ", 
+       "anima\[CCedilla]\[ATilde]o", " ", "para", " ", "se", " ", "poder", 
+       " ", "visualizar", " ", "a", " ", "temperatura", " ", "em", " ", 
+       "fun\[CCedilla]\[ATilde]o", " ", "do", " ", "tempo", " ", "ao", " ", 
+       "longo", " ", "de", " ", "um", " ", 
+       RowBox[{"dia", ".", " ", "Para"}], " ", "tal"}], "Text"]}], 
+    StyleBox[",", "Text"], 
+    StyleBox[" ", "Text"], 
+    StyleBox[
+     RowBox[{"representou", "-", 
+      RowBox[{
+      "se", " ", "um", " ", "dia", " ", "bem", " ", "longe", " ", "do", " ", 
+       "\[IAcute]nicio", " ", "do", " ", "problema", " ", "de", " ", "modo", 
+       " ", "a", " ", "anular", " ", "o", " ", "efeito", " ", "da", " ", 
+       "condi\[CCedilla]\[ATilde]o", " ", "inicial", " ", 
+       RowBox[{"imposta", ".", " ", "Pode"}]}], "-", 
+      RowBox[{
+      "se", " ", "observar", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ",
+        "da", " ", "temperatura", " ", "em", " ", "fun\[CCedilla]\[ATilde]o", 
+       " ", "da", " ", "profundidade", " ", "escolhendo", " ", "a", " ", 
+       "profundidade", " ", "que", " ", "ser", " ", "quer", " ", "analisar", 
+       " ", "assim", " ", "como", " ", "o", " ", "meio", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"terra", ",", " ", 
+          RowBox[{"\[AAcute]gua", " ", "ou", " ", "gelo"}]}], ")"}], ".", 
+        " "}]}]}], "Text"]}]}]}]], "Input",
  CellChangeTimes->{{3.6592525436135817`*^9, 3.659252584403418*^9}, {
    3.659528211569656*^9, 3.659528223033411*^9}, 3.659528288305201*^9, {
    3.6595286427904882`*^9, 3.659528781775557*^9}, {3.65952881188976*^9, 
@@ -111,7 +242,9 @@ Cell[BoxData[
    3.6596041416492357`*^9, 3.659604383514604*^9}, {3.659604483453775*^9, 
    3.659604524574827*^9}, {3.659610742748464*^9, 3.659610755490426*^9}, {
    3.6596118584793787`*^9, 3.659611907775338*^9}, {3.659612001054447*^9, 
-   3.659612027767161*^9}},
+   3.659612027767161*^9}, {3.659627002646233*^9, 3.659627109632348*^9}, {
+   3.6596271902137403`*^9, 3.659627213122101*^9}, {3.6596275404863577`*^9, 
+   3.65962755459023*^9}, {3.659627690408946*^9, 3.6596276945481853`*^9}},
  EmphasizeSyntaxErrors->True],
 
 Cell[CellGroupData[{
@@ -207,14 +340,14 @@ otd5iBSrAem/IpGlIHp6vVYliL7gmVIFojWmz6gD0TdCdOpB9LkfERNAtJ9K
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`k1$$ = 1800., $CellContext`p$$ = 2, 
+   DynamicModuleBox[{$CellContext`k1$$ = 1800., $CellContext`p$$ = 0., 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`p$$], 2, "Profundidade"}, 0, 1000}, {{
        Hold[$CellContext`k1$$], 1800., "Meio"}, {
       1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
-    Typeset`size$$ = {360., {114., 119.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {467., {146., 150.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`p$34463$$ = 0, $CellContext`k1$34464$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -246,7 +379,7 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
          1000}, {{$CellContext`k1$$, 1800., "Meio"}, {
          1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{405., {171., 176.}},
+     ImageSizeCache->{512., {202., 207.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -265,40 +398,40 @@ Cell[BoxData[""], "Input",
   3.659611912873131*^9, 3.659611926678751*^9}}],
 
 Cell[BoxData[
- RowBox[{
-  RowBox[{"De", " ", "seguida"}], ",", " ", 
-  RowBox[{"representou", "-", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"De", " ", "seguida"}], ",", " ", 
+   RowBox[{"representou", "-", 
+    RowBox[{
+    "se", " ", "o", " ", "gr\[AAcute]fico", " ", "em", " ", "3", " ", 
+     "dimens\[OTilde]es", " ", "de", " ", "modo", " ", "a", " ", "ver"}], "-", 
+    RowBox[{
+    "se", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ", "global", " ", 
+     "no", " ", "tempo", " ", "e", " ", "no", " ", "espa\[CCedilla]o"}]}], 
+   ",", " ", 
    RowBox[{
-   "se", " ", "o", " ", "gr\[AAcute]fico", " ", "em", " ", "3", " ", 
-    "dimens\[OTilde]es", " ", "de", " ", "modo", " ", "a", " ", "ver"}], "-", 
-   
+   "esta", " ", "representa\[CCedilla]\[ATilde]o", " ", "\[EAcute]", " ", 
+    "\[UAcute]til", " ", "para", " ", "se", " ", "perceber", " ", "que", " ", 
+    "a", " ", "temperatura", " ", "no", " ", "interior", " ", "da", " ", 
+    "terra"}], ",", " ", 
    RowBox[{
-   "se", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ", "global", " ", 
-    "no", " ", "tempo", " ", "e", " ", "no", " ", "espa\[CCedilla]o"}]}], ",",
+    RowBox[{
+    "converge", " ", "no", " ", "valor", " ", "m\[EAcute]dio", " ", 
+     "\[AGrave]", " ", 
+     RowBox[{"superificie", ".", " ", "Neste"}], " ", "gr\[AAcute]fico", " ", 
+     "optou"}], "-", 
+    RowBox[{
+    "se", " ", "tamb\[EAcute]m", " ", "por", " ", "analisar", " ", "a", " ", 
+     "evolu\[CCedilla]\[ATilde]o", " ", "temporal", " ", "e", " ", "em", " ", 
+     "profundiade", " ", "da", " ", "temperatura", " ", "para", " ", "tempos",
+      " ", "muito", " ", "longe", " ", "do", " ", "tempo", " ", "inicial", 
+     " ", "de", " ", "modo", " ", "a", " ", "obter"}], "-", 
+    RowBox[{"se", " ", "um", " ", "regime", " ", "est\[AAcute]vel"}]}], ",", 
    " ", 
-  RowBox[{
-  "esta", " ", "representa\[CCedilla]\[ATilde]o", " ", "\[EAcute]", " ", 
-   "\[UAcute]til", " ", "para", " ", "se", " ", "perceber", " ", "que", " ", 
-   "a", " ", "temperatura", " ", "no", " ", "interior", " ", "da", " ", 
-   "terra"}], ",", " ", 
-  RowBox[{
    RowBox[{
-   "converge", " ", "no", " ", "valor", " ", "m\[EAcute]dio", " ", 
-    "\[AGrave]", " ", 
-    RowBox[{"superificie", ".", " ", "Neste"}], " ", "gr\[AAcute]fico", " ", 
-    "optou"}], "-", 
-   RowBox[{
-   "se", " ", "tamb\[EAcute]m", " ", "por", " ", "analisar", " ", "a", " ", 
-    "evolu\[CCedilla]\[ATilde]o", " ", "temporal", " ", "e", " ", "em", " ", 
-    "profundiade", " ", "da", " ", "temperatura", " ", "para", " ", "tempos", 
-    " ", "muito", " ", "longe", " ", "do", " ", "tempo", " ", "inicial", " ", 
-    "de", " ", "modo", " ", "a", " ", "obter"}], "-", 
-   RowBox[{"se", " ", "um", " ", "regime", " ", "est\[AAcute]vel"}]}], ",", 
-  " ", 
-  RowBox[{
-  "n\[ATilde]o", " ", "afectado", " ", "pelas", " ", 
-   "condi\[CCedilla]\[OTilde]es", " ", 
-   RowBox[{"inciais", ".", " "}]}]}]], "Input",
+   "n\[ATilde]o", " ", "afectado", " ", "pelas", " ", 
+    "condi\[CCedilla]\[OTilde]es", " ", 
+    RowBox[{"inciais", ".", " "}]}]}], "Text"]], "Input",
  CellChangeTimes->{{3.659610770874247*^9, 3.659610870194705*^9}, {
   3.6596109231781597`*^9, 3.6596110272017384`*^9}, {3.6596119304865637`*^9, 
   3.659611933985607*^9}}],
@@ -363,12 +496,16 @@ Cell[BoxData[
       RowBox[{"{", 
        RowBox[{"x", ",", "0", ",", "1000"}], "}"}], ",", " ", 
       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", " ", 
-      RowBox[{"AxesLabel", "\[Rule]", "Automatic"}]}], "]"}], ",", 
+      RowBox[{"AxesLabel", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<t(h)\>\"", ",", "\"\<Profundidade(m)\>\"", ",", 
+         "\"\<T(\.baC)\>\""}], "}"}]}]}], "]"}], ",", 
     RowBox[{"{", 
      RowBox[{
       RowBox[{"{", 
        RowBox[{"k1", ",", 
-        RowBox[{"0.5", "*", "3600"}]}], "}"}], ",", 
+        RowBox[{"0.5", "*", "3600"}], ",", "\"\<Meio\>\""}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{
         RowBox[{
@@ -378,7 +515,8 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"1.6", "*", "3600"}], "\[Rule]", "\"\<Gelo\>\""}]}], "}"}]}],
       "}"}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.659609276013907*^9, 3.659609333853797*^9}}],
+ CellChangeTimes->{{3.659609276013907*^9, 3.659609333853797*^9}, {
+  3.6596272791941*^9, 3.6596273316419783`*^9}}],
 
 Cell[BoxData[
  TagBox[
@@ -387,15 +525,15 @@ Cell[BoxData[
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`k1$$], 1800.}, {
+       Hold[$CellContext`k1$$], 1800., "Meio"}, {
       1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
-    Typeset`size$$ = {660., {149., 153.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {659., {164., 169.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`k1$23360$$ = False}, 
+    True, $CellContext`k1$39065$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`k1$$ = 1800.}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`k1$$, $CellContext`k1$23360$$, False]}, 
+        Hold[$CellContext`k1$$, $CellContext`k1$39065$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -414,12 +552,12 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
             0, $CellContext`u[0, $CellContext`x] == 
             10}, $CellContext`u, {$CellContext`t, 0, 3000}, {$CellContext`x, 
             0, 1000}, MaxSteps -> 1000000]]], {$CellContext`t, 3000 - 24, 
-         3000}, {$CellContext`x, 0, 1000}, PlotRange -> All, AxesLabel -> 
-        Automatic], 
-      "Specifications" :> {{{$CellContext`k1$$, 1800.}, {
+         3000}, {$CellContext`x, 0, 1000}, PlotRange -> All, 
+        AxesLabel -> {"t(h)", "Profundidade(m)", "T(\.baC)"}], 
+      "Specifications" :> {{{$CellContext`k1$$, 1800., "Meio"}, {
          1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{705., {191., 196.}},
+     ImageSizeCache->{704., {207., 212.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -430,37 +568,107 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.659609324924288*^9, 3.659609334736031*^9}}]
+ CellChangeTimes->{{3.659609324924288*^9, 3.659609334736031*^9}, 
+   3.65962733417013*^9}]
 }, Open  ]],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{
-  "2", " ", "Estudo", " ", "da", " ", "solu\[CCedilla]\[ATilde]o", " ", "da", 
-   " ", "equa\[CCedilla]\[ATilde]o", " ", "do", " ", "calor", " ", "no", " ", 
-   "regime", " ", "transit\[OAcute]rio", " ", "devido", " ", "\[AGrave]s", 
-   " ", "condi\[CCedilla]\[OTilde]es", " ", "iniciais", " ", 
-   RowBox[{"impostas", ".", " ", "\[IndentingNewLine]", "Estes"}], " ", "2", 
-   " ", "gr\[AAcute]ficos", " ", "mostram", " ", "o", " ", "regime", " ", 
-   "de", " ", "transi\[CCedilla]\[ATilde]o", " ", "que", " ", "existe", " ", 
-   "no", " ", "\[IAcute]nicio"}], ",", " ", 
-  RowBox[{
+   StyleBox["2", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["Estudo", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["da", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["solu\[CCedilla]\[ATilde]o", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["da", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["equa\[CCedilla]\[ATilde]o", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["do", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["calor", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["no", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["regime", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["transit\[OAcute]rio", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["devido", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["\[AGrave]s", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["condi\[CCedilla]\[OTilde]es", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
+   StyleBox["iniciais", "Subchapter"], 
+   StyleBox[" ", "Subchapter"], 
    RowBox[{
-   "devido", " ", "\[AGrave]s", " ", "condi\[CCedilla]\[OTilde]es", " ", 
-    "inciais", " ", 
-    RowBox[{"impostas", ".", "  ", "Representa"}]}], "-", 
+    StyleBox["impostas", "Subchapter"], 
+    StyleBox[".", "Subchapter"], 
+    StyleBox[" ", "Subchapter"], 
+    StyleBox["\[IndentingNewLine]", "Text"], 
+    StyleBox["Os", "Text"]}], 
+   StyleBox[" ", "Text"], 
+   StyleBox["gr\[AAcute]ficos", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["mostram", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["o", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["regime", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["de", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["transi\[CCedilla]\[ATilde]o", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["que", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["existe", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["no", "Text"], 
+   StyleBox[" ", "Text"], 
+   StyleBox["\[IAcute]nicio", "Text"]}], 
+  StyleBox[",", "Text"], 
+  StyleBox[" ", "Text"], 
+  StyleBox[
    RowBox[{
-   "se", " ", "em", " ", "primeiro", " ", "durante", " ", "uma", " ", 
-    "semana", " ", "e", " ", "de", " ", "seguida", " ", "durante", " ", "um", 
-    " ", "m\[EHat]s"}]}], ",", " ", 
-  RowBox[{
-  "tempo", " ", "suficiente", " ", "para", " ", "se", " ", "antigir", " ", 
-   "a", " ", "temperatura", " ", "m\[EAcute]dia", " ", "\[AGrave]", " ", 
-   "superficie", " ", "de", " ", "15", 
-   RowBox[{"\.baC", "."}]}]}]], "Input",
+    RowBox[{
+    "devido", " ", "\[AGrave]s", " ", "condi\[CCedilla]\[OTilde]es", " ", 
+     "inciais", " ", 
+     RowBox[{"impostas", ".", "  ", "Representa"}]}], "-", 
+    RowBox[{
+    "se", " ", "em", " ", "primeiro", " ", "durante", " ", "uma", " ", 
+     "semana", " ", "e", " ", "de", " ", "seguida", " ", "durante", " ", "um",
+      " ", "m\[EHat]s"}]}], "Text"], 
+  StyleBox[",", "Text"], 
+  StyleBox[" ", "Text"], 
+  StyleBox[
+   RowBox[{
+   "tempo", " ", "suficiente", " ", "para", " ", "se", " ", "antigir", " ", 
+    "a", " ", "temperatura", " ", "m\[EAcute]dia", " ", "\[AGrave]", " ", 
+    "superficie", " ", "de", " ", "15", "\.baC"}], "Text"], 
+  StyleBox[",", "Text"], 
+  StyleBox[" ", "Text"], 
+  StyleBox[
+   RowBox[{
+    RowBox[{"por", " ", "fim", " ", "reprenta"}], "-", 
+    RowBox[{
+    "se", "  ", "para", " ", "todo", " ", "o", " ", "tempo", " ", "imposto", 
+     " ", "de", " ", "0", " ", "a", " ", "3000", " ", "horas"}]}], "Text"], 
+  StyleBox[",", "Text"], 
+  StyleBox[" ", "Text"], 
+  StyleBox[
+   RowBox[{
+   "que", " ", "foi", " ", "a", " ", "evolu\[CCedilla]\[ATilde]o", " ", 
+    "feita", " ", "na", " ", "sec\[CCedilla]\[ATilde]o", " ", 
+    RowBox[{"anterior", "."}]}], "Text"]}]], "Input",
  CellChangeTimes->{{3.6596110373264112`*^9, 3.6596111064078007`*^9}, {
   3.659611250762945*^9, 3.659611298519168*^9}, {3.659611345340405*^9, 
-  3.659611354980147*^9}, {3.659611937912776*^9, 3.65961196231577*^9}},
+  3.659611354980147*^9}, {3.659611937912776*^9, 3.65961196231577*^9}, {
+  3.6596284954075727`*^9, 3.6596285632167053`*^9}},
  EmphasizeSyntaxErrors->True],
 
 Cell[CellGroupData[{
@@ -550,7 +758,7 @@ Cell[BoxData[
     "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`k1$$], 1800., "Meio"}, {
       1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
-    Typeset`size$$ = {802., {215., 220.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {611., {123., 127.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`k1$31537$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -580,7 +788,7 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
       "Specifications" :> {{{$CellContext`k1$$, 1800., "Meio"}, {
          1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{847., {258., 263.}},
+     ImageSizeCache->{656., {165., 170.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -681,7 +889,7 @@ Cell[BoxData[
     "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`k1$$], 1800., "Meio"}, {
       1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
-    Typeset`size$$ = {829., {202., 207.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {631., {129., 134.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`k1$32271$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -711,7 +919,7 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
       "Specifications" :> {{{$CellContext`k1$$, 1800., "Meio"}, {
          1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{874., {245., 250.}},
+     ImageSizeCache->{676., {172., 177.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -809,14 +1017,14 @@ Cell[BoxData[
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`k1$$ = 1800., $CellContext`tm$$ = 2, 
+   DynamicModuleBox[{$CellContext`k1$$ = 1800., $CellContext`tm$$ = 646., 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`tm$$], 2, "Tempo"}, 0, 720}, {{
        Hold[$CellContext`k1$$], 1800., "Meio"}, {
       1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
-    Typeset`size$$ = {360., {92., 96.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {360., {94., 98.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`tm$37202$$ = 0, $CellContext`k1$37203$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -848,7 +1056,7 @@ $CellContext`x, $CellContext`x], $CellContext`u[$CellContext`t, 0] ==
          720}, {{$CellContext`k1$$, 1800., "Meio"}, {
          1800. -> "Terra", 2160. -> "Agua", 5760. -> "Gelo"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{405., {148., 153.}},
+     ImageSizeCache->{405., {150., 155.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -879,29 +1087,29 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 4755, 94, 267, "Input"],
+Cell[558, 20, 9167, 227, 456, "Input"],
 Cell[CellGroupData[{
-Cell[5338, 118, 3224, 86, 232, "Input"],
-Cell[8565, 206, 2754, 53, 364, "Output"]
+Cell[9750, 251, 3224, 86, 232, "Input"],
+Cell[12977, 339, 2755, 53, 426, "Output"]
 }, Open  ]],
-Cell[11334, 262, 139, 2, 28, "Input"],
-Cell[11476, 266, 1701, 37, 114, "Input"],
+Cell[15747, 395, 139, 2, 28, "Input"],
+Cell[15889, 399, 1750, 37, 128, "Input"],
 Cell[CellGroupData[{
-Cell[13202, 307, 2727, 73, 245, "Input"],
-Cell[15932, 382, 2498, 50, 404, "Output"]
+Cell[17664, 440, 2923, 78, 268, "Input"],
+Cell[20590, 520, 2569, 51, 436, "Output"]
 }, Open  ]],
-Cell[18445, 435, 1467, 28, 80, "Input"],
+Cell[23174, 574, 3568, 97, 152, "Input"],
 Cell[CellGroupData[{
-Cell[19937, 467, 2699, 74, 216, "Input"],
-Cell[22639, 543, 2559, 51, 538, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[25235, 599, 2653, 73, 216, "Input"],
-Cell[27891, 674, 2511, 50, 512, "Output"]
+Cell[26767, 675, 2699, 74, 216, "Input"],
+Cell[29469, 751, 2559, 51, 352, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30439, 729, 2745, 77, 252, "Input"],
-Cell[33187, 808, 2723, 53, 318, "Output"]
+Cell[32065, 807, 2653, 73, 216, "Input"],
+Cell[34721, 882, 2511, 50, 366, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37269, 937, 2745, 77, 252, "Input"],
+Cell[40017, 1016, 2726, 53, 322, "Output"]
 }, Open  ]]
 }
 ]
